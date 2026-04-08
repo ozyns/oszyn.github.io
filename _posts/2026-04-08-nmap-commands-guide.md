@@ -12,6 +12,7 @@ Nmap is one of the most powerful tools in a cybersecurity professional's arsenal
 ## `nmap -Pn -p <port>`
 
 Used to scan a target's ports directly, skipping host discovery. Nmap will not check whether the host is "up" — it assumes it is and proceeds straight to port scanning.
+![](assets/nmap_prjct_media/nmap_image1.png)
 
 > Useful when a target blocks ICMP pings, making it appear offline even when it's not.
 
