@@ -2,7 +2,7 @@
 title: "Evil Twin Attack with Fluxion"
 date: 2026-05-01 00:00:00 +0000
 categories: [Cybersecurity, Penetration Testing]
-tags: [wifi, fluxion, evil-twin, kali-linux, wpa]
+tags: [wifi, fluxion, evil-twin, kali-linux]
 ---
 
 > ⚠️ **Disclaimer:** This writeup is strictly for educational purposes. Performing this attack without **explicit written permission** from the network owner is illegal. Always test in a controlled lab environment.
@@ -135,11 +135,11 @@ Everything is configured. Fluxion launches the attack and several `xterm` window
 
 From the victim's device, two networks appear with the **exact same name** — one is the real AP, the other is ours. Since we're not using the emulated mode, our rogue network shows "No Internet Access," but users often still try it thinking it's a temporary issue with their router.
 
-![](assets/Evil-Twin-prjct-media/im5.png)
+![](assets/Evil-Twin-prjct-media/im5.jpg)
 
 When the victim connects to the rogue network, their browser automatically opens a **captive portal page** — styled to look like a router login page — asking for the Wi-Fi password.
 
-![](assets/Evil-Twin-prjct-media/im6.png)
+![](assets/Evil-Twin-prjct-media/im6.jpg)
 
 If the victim enters the wrong password, the page simply reloads and asks again. Under the hood, each attempt is hashed and compared against the handshake we captured in Step 5. The moment the hash matches — the password is correct.
 
