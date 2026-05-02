@@ -1,6 +1,6 @@
 ---
 title: "Evil Twin Attack with Fluxion"
-date: 2026-11-09 00:00:00 +0000
+date: 2025-11-09 00:00:00 +0000
 categories: [Cybersecurity, Penetration Testing]
 tags: [wifi, fluxion, evil-twin, kali-linux]
 ---
