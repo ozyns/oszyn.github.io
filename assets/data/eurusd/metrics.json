@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-05-02 09:48",
+  "data_start": "2016-07-12",
+  "data_end": "2026-05-01",
+  "train_samples": 2040,
+  "test_samples": 511,
+  "total_features": 36,
+  "rmse": 0.004063,
+  "mae": 0.002865,
+  "r2": 0.992916,
+  "mape": 0.2569,
+  "directional_accuracy": 74.76,
+  "model": "RandomForestRegressor",
+  "n_estimators": 200,
+  "max_depth": 15
+}
