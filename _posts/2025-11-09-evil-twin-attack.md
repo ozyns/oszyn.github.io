@@ -5,7 +5,7 @@ categories: [Cybersecurity, Penetration Testing]
 tags: [wifi, fluxion, evil-twin, kali-linux]
 ---
 
-> ⚠️ **Disclaimer:** This writeup is strictly for educational purposes. Performing this attack without **explicit written permission** from the network owner is illegal. Always test in a controlled lab environment.
+>  ⚠︎ **Disclaimer:** This writeup is strictly for educational purposes. Performing this attack without **explicit written permission** from the network owner is illegal. Always test in a controlled lab environment.
 
 ---
 
