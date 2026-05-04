@@ -12,4 +12,4 @@ This website serves as a portfolio of my projects and technical write-ups, where
 
 ## Contact
 
-Feel free to reach out via the links below.
+Feel free to reach out via the links buttom left.
