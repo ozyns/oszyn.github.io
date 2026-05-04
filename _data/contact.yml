@@ -6,9 +6,10 @@
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
-- type: email
+- type: custom
   icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+  url: "mailto:oszynn@gmail.com"
+  noblank: true
 
 - type: rss
   icon: "fas fa-rss"
